@@ -1,8 +1,8 @@
 class Constant {
 
   // SHARED PREFERENCE //
-  static const API_PRODUCTION = '';
-  static const API_STAGING = '';
+  static const API_PRODUCTION = 'api_production';
+  static const API_STAGING = 'api_staging';
   static const IS_DEV = 'IS_DEV';
   static const SEARCH_HISTORY = 'SEARCH_HISTORY';
   static const TOKEN = 'TOKEN';

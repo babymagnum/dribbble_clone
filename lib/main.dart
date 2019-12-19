@@ -11,7 +11,7 @@ void main() {
 class MyApp extends StatelessWidget {
 
   /* Change BASE_API to Constant.API_STAGING or Constant.API_PRODUCTION */
-  static const BASE_API = Constant.API_STAGING;
+  static const BASE_API = Constant.API_PRODUCTION;
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,8 @@
 import 'package:division/division.dart';
+import 'package:dribbble_clone/core/locator.dart';
 import 'package:dribbble_clone/core/theme/theme_color.dart';
+import 'package:dribbble_clone/stores/base_stores/base_stores.dart';
+import 'package:dribbble_clone/view/screen2/screen2_view.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -11,6 +14,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  var _baseStores = locator<BaseStores>();
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -54,6 +60,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * 0.1),
                     Parent(
+                      gesture: Gestures()..onTap(() {
+                        _baseStores.testAction(false);
+                        Navigator.of(context).pushNamed(Screen2View.routeName);
+                      }),
                       style: ParentStyle()
                         ..borderRadius(all: 5)
                         ..background.color(Colors.deepPurpleAccent)
