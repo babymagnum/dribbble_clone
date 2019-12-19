@@ -1,6 +1,6 @@
-import 'package:dribbble_clone/core/router.dart';
-import 'package:dribbble_clone/core/constant.dart';
-import 'package:dribbble_clone/core/locator.dart';
+import 'package:dribbble_clone/core/helper/constant.dart';
+import 'package:dribbble_clone/core/helper/locator.dart';
+import 'package:dribbble_clone/core/helper/router.dart';
 import 'package:flutter/material.dart';
 
 void main() {

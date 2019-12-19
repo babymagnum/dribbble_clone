@@ -1,4 +1,4 @@
-import 'package:dribbble_clone/core/locator.dart';
+import 'package:dribbble_clone/core/helper/locator.dart';
 import 'package:dribbble_clone/main.dart';
 import 'package:flutter/material.dart';
 import '../../stores/base_stores/base_stores.dart';

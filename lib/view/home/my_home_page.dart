@@ -1,5 +1,5 @@
 import 'package:division/division.dart';
-import 'package:dribbble_clone/core/locator.dart';
+import 'package:dribbble_clone/core/helper/locator.dart';
 import 'package:dribbble_clone/core/theme/theme_color.dart';
 import 'package:dribbble_clone/stores/base_stores/base_stores.dart';
 import 'package:dribbble_clone/view/screen2/screen2_view.dart';
