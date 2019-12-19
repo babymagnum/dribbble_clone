@@ -10,7 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
 
-  /* Don't forget to change BASE_API to Constant.API_PRODUCTION when building apk */
+  /* Don't forget to change BASE_API to Constant.API_PRODUCTION when building apk / when testing live server */
   static const BASE_API = Constant.API_PRODUCTION;
 
   @override
