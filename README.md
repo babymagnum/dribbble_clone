@@ -1,4 +1,4 @@
-# dribbble_clone
+# flutter_template
 
 Dribbble website clone using flutter
 
