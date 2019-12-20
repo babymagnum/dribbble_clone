@@ -1,5 +1,4 @@
 import 'package:dribbble_clone/view/home/my_home_page.dart';
-import 'package:dribbble_clone/view/screen2/screen2_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -10,8 +9,6 @@ class Router {
     switch (settings.name) {
       case MyHomePage.routeName:
         return MaterialPageRoute(builder: (_) => MyHomePage());
-      case Screen2View.routeName:
-        return MaterialPageRoute(builder: (_) => Screen2View());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(

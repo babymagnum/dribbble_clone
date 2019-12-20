@@ -3,6 +3,7 @@ import 'package:dribbble_clone/core/helper/constant.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../model/success/success.dart';
+import '../../model/get_token/get_token.dart';
 import 'dart:convert';
 
 class BaseService {
@@ -192,8 +193,9 @@ class BaseService {
       return _fromJsonList<T>(json) as T;
     } else if (T == Success) {
       return Success.fromJson(json) as T;
+    } else if (T == GetToken) {
+      return GetToken.fromJson(json) as T;
     } else {
-      // if this print statement occured, this means that you're not register the model class in here
       print('Unknown class, dont forget to add your model in BaseService.dart to parse the json');
       throw Exception('Unknown class');
     }
