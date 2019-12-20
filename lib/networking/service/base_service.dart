@@ -193,6 +193,7 @@ class BaseService {
     } else if (T == Success) {
       return Success.fromJson(json) as T;
     } else {
+      // if this print statement occured, this means that you're not register the model class in here
       print('Unknown class, dont forget to add your model in BaseService.dart to parse the json');
       throw Exception('Unknown class');
     }

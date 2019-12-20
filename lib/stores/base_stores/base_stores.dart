@@ -1,3 +1,5 @@
+import 'package:dribbble_clone/networking/request/login_request.dart';
+import 'package:dribbble_clone/networking/service/user_service.dart';
 import 'package:mobx/mobx.dart';
 
 part 'base_stores.g.dart';
@@ -12,6 +14,11 @@ abstract class BaseStoresBase with Store {
   @action
   testAction(bool value) {
     isLoading = value;
+  }
+
+  doLogin(String email, String password) async {
+    final success = await UserService().doLogin(LoginRequest(email, password));
+    print(success.status);
   }
 
 }
