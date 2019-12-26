@@ -2,6 +2,8 @@ import 'package:dribbble_clone/core/theme/theme_text_style.dart';
 import 'package:dribbble_clone/view/add_shots/add_shots_view.dart';
 import 'package:flutter/material.dart';
 
+import '../login/login.dart';
+
 class MyHomePage extends StatefulWidget {
 
   static const routeName = 'my-home-page';
@@ -17,7 +19,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
 
     Future.delayed(Duration(seconds: 1), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => AddShotsView()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => LoginView()));
     });
     
   }

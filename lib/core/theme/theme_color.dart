@@ -4,6 +4,7 @@ class ThemeColor {
 
   /// Main Colors
   static const primary = Color(0xFFAA1E23);
+  static const pinkImageLogin = Color(0xFFE09DB1);
   static const primaryDark = Color(0xFF8F1C21);
   static const background_color = Color(0xFFF8FAFC);
   static const whit = Color(0xFFFFFFFF);
