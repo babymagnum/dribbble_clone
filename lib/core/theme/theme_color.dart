@@ -5,6 +5,8 @@ class ThemeColor {
   /// Main Colors
   static const primary = Color(0xFFAA1E23);
   static const pinkImageLogin = Color(0xFFE09DB1);
+  static const dribbble_pink = Color(0xFFEA4C89);
+  static const dribbble_pink_dark = Color(0xFFfe3885);
   static const primaryDark = Color(0xFF8F1C21);
   static const background_color = Color(0xFFF8FAFC);
   static const whit = Color(0xFFFFFFFF);
@@ -23,6 +25,8 @@ class ThemeColor {
   static const black = Color(0xFF02040F);
   static const blue = Color(0xFF1E3FAA);
   static const soft_blue = Color(0xFF1A96FF);
+  static const google_blue = Color(0xFF4c8bf5);
+  static const google_blue_dark = Color(0xFF3786ff);
   static const purple = Color(0xFFB500FF);
   static const green = Color(0xFF47C363);
   static const blackText = Color(0xFF222222);

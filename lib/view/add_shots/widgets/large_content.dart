@@ -3,7 +3,6 @@ import 'package:dribbble_clone/core/helper/responsive_layout.dart';
 import 'package:dribbble_clone/core/theme/theme_color.dart';
 import 'package:dribbble_clone/core/theme/theme_text_style.dart';
 import 'package:flutter/material.dart';
-import 'package:dotted_border/dotted_border.dart';
 
 class LargeContent extends StatefulWidget {
   @override
